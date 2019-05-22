@@ -1,0 +1,44 @@
+#grad1 {
+    /* height: 600px; */
+    /* background-color: red; For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); /* Standard syntax (must be last) */
+    /* width:100px; */
+  }
+
+  .slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}  
+
+  #introheadtext{
+      color:white;
+      font-size: 55px;
+      margin-left: 100px;
+  }
+
+  #introtext{
+    color:white;
+    font-size: 20px;
+    margin-left: 100px;
+}
