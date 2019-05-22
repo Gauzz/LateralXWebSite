@@ -1,0 +1,42 @@
+#serv{
+    top:250px;
+    /* text-align: left; */
+    /* margin-left: 5px; */
+    /* position: absolute; */
+}
+
+#info{
+    color: rgba(8, 0, 0, 0.274);
+    width:420px;
+}
+#abc{
+    font-size: 50px;
+    /* width:480px; */
+}
+#pic{
+    left:50%;
+    position: absolute;
+    top:100px;
+}
+.container{
+    margin-left: 120px;
+}
+
+#pic1{
+    /* top: 0px; */
+    width: 300px;
+    position: absolute;
+}
+
+#pic2{
+    left: 73%;
+    top:150px;
+    width:300px;
+    position: absolute;
+}
+video{
+    left:30%;
+    top:80px;
+    position: absolute;
+    width:280px;
+}
