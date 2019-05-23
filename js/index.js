@@ -33,13 +33,13 @@ $(window).scroll(function () {
 
 
 
-// $(window).on('load',function(){
+$(window).on('load',function(){
     
      
-//     $("#imag").fadeOut(-2000);
-//     $("#imag").fadeIn(2000);
-//     // $(".col2").hide();
-//     // $(".col1").hide();
-//     // $(".col3").hide();
-//     // $(".col4").hide();
-//   });
+    $("#imag").fadeOut(-2000);
+    $("#imag").fadeIn(2000);
+    // $(".col2").hide();
+    // $(".col1").hide();
+    // $(".col3").hide();
+    // $(".col4").hide();
+  });
