@@ -6,6 +6,14 @@
     /* position: relative; */
 }
 
+#broc{
+    top:100px;
+    /* z-index: 2; */
+    /* text-align: left; */
+    margin-left: 700px;
+    /* position: relative; */
+}
+
 #info{
     color: rgba(8, 0, 0, 0.274);
     width:420px;
@@ -20,6 +28,11 @@
     position: relative;
     top:0px;
 }
+#bropicdiv{
+    left:0%;
+    position: relative;
+    top:0px;
+}
 .container{
     margin-left: 120px;
 }
@@ -29,6 +42,14 @@
     width: 300px;
     position: absolute;
 }
+
+#bropic{
+    top: 100px;
+    height:300px;
+    width: 500px;
+    position: absolute;
+}
+
 
 #pic2{
     left: 65%;
