@@ -136,3 +136,34 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.281), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+#phone{
+    top: 200px;
+    width: 250px;
+    left: 30%;
+    position: absolute;
+}
+
+.logop{
+    top: 380px;
+    width: 100px;
+    left: 44%;
+    position: absolute;
+    /* z-index: -1; */
+
+}
+
+.androidlogo{
+    top: 520px;
+    width: 60px;
+    left: 62%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+/* #dwnld{
+    top: 380px;
+    width: 80px;
+    left: 30%;
+    position: absolute;
+} */
