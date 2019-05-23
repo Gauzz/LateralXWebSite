@@ -1,18 +1,36 @@
 
-// window.onscroll(p) = function() {myFunction()};
-
+// window.onscroll = function() {myFunction()};
+// var a = 0;
 // function myFunction() {
-// var a=document.body.scrollTop ;
-// var b=document.documentElement.scrollTop;
-//   if (a > 100 || b > 100) {
+    
+// var b=document.body.scrollTop ;
+// // var b=document.documentElement.scrollTop;
+//   if (b < a) {
 //     document.getElementById("imag").className = "slideUp";
-//     a=0;
-//     b=0;
+//    a=document.body.scrollTop ;
 //   }
 //   else
-//   document.getElementById("imag").className = "";
+ 
   
 // }
+
+var iScrollPos = 0;
+$(window).scroll(function () {
+   
+    var iCurScrollPos = $(this).scrollTop();
+    if (iCurScrollPos > iScrollPos) {
+        document.getElementById("imag").className = "";
+    } else {
+        
+        if($(this).scrollTop()>screen.height)
+        // 
+        document.getElementById("imag").className = "slideUp";
+
+    }
+    iScrollPos = iCurScrollPos;
+    
+});
+
 
 
 $(window).on('load',function(){

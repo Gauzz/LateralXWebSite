@@ -1,7 +1,16 @@
 #serv{
     top:250px;
+    /* z-index: 2; */
     /* text-align: left; */
     /* margin-left: 5px; */
+    /* position: relative; */
+}
+
+#broc{
+    top:100px;
+    /* z-index: 2; */
+    /* text-align: left; */
+    margin-left: 700px;
     /* position: relative; */
 }
 
@@ -19,6 +28,11 @@
     position: relative;
     top:0px;
 }
+#bropicdiv{
+    left:0%;
+    position: relative;
+    top:0px;
+}
 .container{
     margin-left: 120px;
 }
@@ -28,6 +42,14 @@
     width: 300px;
     position: absolute;
 }
+
+#bropic{
+    top: 100px;
+    height:300px;
+    width: 500px;
+    position: absolute;
+}
+
 
 #pic2{
     left: 65%;
@@ -47,6 +69,7 @@ video{
     /* background-color: red; For browsers that do not support gradients */
     background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); /* Standard syntax (must be last) */
     /* width:100px; */
+    height:100vh;
   }
 
   .slideUp {
@@ -116,9 +139,9 @@ body{
 
 }
 
-#dwnld{
+/* #dwnld{
     top: 380px;
     width: 80px;
     left: 30%;
     position: absolute;
-}
+} */
