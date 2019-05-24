@@ -153,19 +153,35 @@ body{
 
 }
 #phone{
-    top: 200px;
-    width: 250px;
-    left: 30%;
+    top: 352px;
+    width: 139px;
+    left: 44%;
     position: absolute;
 }
-
+#build{
+    top: 152px;
+    width: 799px;
+    left: -31%;
+    position: absolute;
+}
 .logop{
-    top: 380px;
-    width: 100px;
-    left: 44%;
+    top: 503px;
+    width: 48px;
+    left: 50%;
     position: absolute;
     /* z-index: -1; */
 
+    /* z-index: -1; */
+
+}
+
+.bro{
+    top: 365px;
+    width: 258px;
+    transform: rotate(8deg);
+    left: 61%;
+    position: absolute;
+    z-index: -1;
 }
 
 .androidlogo{
