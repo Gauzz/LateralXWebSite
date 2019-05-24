@@ -59,9 +59,9 @@
     position: relative;
     top:0px;
 }
-.container{
+/* .container{
     margin-left: 120px;
-}
+} */
 
 #pic1{
     top: 100px;
@@ -81,9 +81,11 @@
  } */
 
  .downlaod{
-    background-image: linear-gradient(#cbcecf, rgb(231, 231, 231));
-    width: 60%;
+    /* background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228)); */
+    background-image: url(images/background.jpg);
+    /* width: 60%; */
     height:60%;
+    
     border-radius: 10px;
  }
 
