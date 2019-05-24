@@ -167,3 +167,28 @@ body{
     left: 30%;
     position: absolute;
 } */
+
+#brochvid{
+    top:20px;
+    left:0%;
+    z-index: -1;
+    position:absolute;
+}
+
+#brochure{
+    top: 350px;
+    width:400px;
+    left:25%;
+    position:absolute;
+}
+
+#brochtext{
+    text-align: right;
+}
+#infobroch{
+    color: rgba(8, 0, 0, 0.274);
+    width:420px;
+    font-size:20px;
+    left: 133px;
+    position:absolute;
+}
