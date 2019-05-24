@@ -3,19 +3,41 @@
 // var a = 0;
 // function myFunction() {
     
-// var b=document.body.scrollTop ;
-// // var b=document.documentElement.scrollTop;
+// // var b=document.body.scrollTop ;
+
+// var b=document.documentElement.scrollTop;
+// console.log(b);
 //   if (b < a) {
 //     document.getElementById("imag").className = "slideUp";
 //    a=document.body.scrollTop ;
 //   }
-//   else
+  
  
   
 // }
 
+
+// window.onscroll = function() {myFunction()};
+
+// function myFunction() {
+  if (document.body.scrollTop > 2400 || document.documentElement.scrollTop > 2400) {
+    $('.count').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+              $(this).text(Math.ceil(now));
+          }
+      });
+  });
+  }
+
+
 var iScrollPos = 0;
 $(window).scroll(function () {
+
    
     var iCurScrollPos = $(this).scrollTop();
     if (iCurScrollPos > iScrollPos) {
@@ -30,6 +52,8 @@ $(window).scroll(function () {
     iScrollPos = iCurScrollPos;
     
 });
+
+
 
 
 
