@@ -39,20 +39,15 @@
 
 #info{
     color: rgba(8, 0, 0, 0.274);
-    width: 324px;
-    font-size: 20px;
+    width:420px;
+    font-size:20px;
 }
 .icon{
     font-size: 30px;
 }
 #abc{
     font-size: 50px;
-    width: 357px;
-}
-
-#abcd{
-    font-size: 50px;
-    width: 484px;
+    /* width:480px; */
 }
 #pic{
     /* left:10%; */
@@ -70,7 +65,7 @@
 
 #pic1{
     top: 100px;
-    width: 263px;
+    width: 300px;
     position: absolute;
 }
 
@@ -86,9 +81,9 @@
  } */
 
  .downlaod{
-    /* background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228)); */
-    background-image: url(images/background.jpg);
-    /* width: 60%; */
+    background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228));
+    background-image: url(images\img3.jpg);
+    width: 60%;
     height:60%;
     
     border-radius: 10px;
@@ -96,8 +91,8 @@
 
 #pic2{
     left: 65%;
-    top: -97px;
-    width: 258px;
+    top:-97px;
+    width:300px;
     position: relative;
 }
 video{
@@ -145,14 +140,12 @@ body{
       color:white;
       font-size: 55px;
       margin-left: 100px;
-      font-family: 'Ubuntu', sans-serif;
   }
 
   #introtext{
     color:white;
     font-size: 20px;
     margin-left: 100px;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .shad{
@@ -160,35 +153,19 @@ body{
 
 }
 #phone{
-    top: 352px;
-    width: 139px;
+    top: 200px;
+    width: 250px;
+    left: 30%;
+    position: absolute;
+}
+
+.logop{
+    top: 380px;
+    width: 100px;
     left: 44%;
     position: absolute;
-}
-#build{
-    top: 152px;
-    width: 799px;
-    left: -31%;
-    position: absolute;
-}
-.logop{
-    top: 503px;
-    width: 48px;
-    left: 50%;
-    position: absolute;
     /* z-index: -1; */
 
-    /* z-index: -1; */
-
-}
-
-.bro{
-    top: 365px;
-    width: 258px;
-    transform: rotate(8deg);
-    left: 61%;
-    position: absolute;
-    z-index: -1;
 }
 
 .androidlogo{
@@ -215,10 +192,10 @@ body{
 }
 
 #brochure{
-    top: 316px;
-    width: 448px;
-    left: 25%;
-    position: absolute;
+    top: 350px;
+    width:400px;
+    left:25%;
+    position:absolute;
 }
 
 #brochtext{
@@ -227,10 +204,10 @@ body{
 }
 #infobroch{
     color: rgba(8, 0, 0, 0.274);
-    width: 479px;
-    font-size: 20px;
+    width:420px;
+    font-size:20px;
     left: 18px;
-    position: absolute;
+    position:absolute;
 }
 
 .VRestate{
