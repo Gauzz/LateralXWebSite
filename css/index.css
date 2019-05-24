@@ -80,6 +80,13 @@
      display: table-cell;
  } */
 
+ .downlaod{
+    background-image: linear-gradient(#cbcecf, rgb(231, 231, 231));
+    width: 60%;
+    height:60%;
+    border-radius: 10px;
+ }
+
 #pic2{
     left: 65%;
     top:-97px;
