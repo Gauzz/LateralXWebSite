@@ -81,7 +81,8 @@
  } */
 
  .downlaod{
-    background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228));
+    /* background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228));   */
+
     background-image: url(images\img3.jpg);
     width: 60%;
     height:60%;
