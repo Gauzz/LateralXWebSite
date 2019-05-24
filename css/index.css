@@ -4,6 +4,7 @@
     /* text-align: left; */
     /* margin-left: 5px; */
     /* position: relative; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #broc{
@@ -12,6 +13,7 @@
     /* text-align: left; */
     margin-left: 700px;
     /* position: relative; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contacts{
@@ -20,6 +22,7 @@
     margin-left: 80px;
     margin-top: 100px;
     width:calc(100%-50px) ;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contact{
@@ -27,12 +30,14 @@
     /* background-image: linear-gradient(#cbcecf, rgb(231, 231, 231)); */
     width: 100%;
     /* border-radius: 10px; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .form{
     padding: 50px;
     margin: 30px;
     margin-left: 40px;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -41,28 +46,35 @@
     color: rgba(8, 0, 0, 0.274);
     width: 324px;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .icon{
     font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
 }
 #abc{
     font-size: 50px;
     width: 357px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #abcd{
     font-size: 50px;
     width: 484px;
+    font-family: 'Ubuntu', sans-serif;
+    
 }
 #pic{
     /* left:10%; */
     position: relative;
     /* top:0px; */
+    font-family: 'Ubuntu', sans-serif;
 }
 #bropicdiv{
     left:0%;
     position: relative;
     top:0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 /* .container{
     margin-left: 120px;
@@ -90,7 +102,7 @@
     background-image: url(images/background.jpg);
     /* width: 60%; */
     height:60%;
-    
+    font-family: 'Ubuntu', sans-serif;
     border-radius: 10px;
  }
 
@@ -145,7 +157,7 @@ body{
       color:white;
       font-size: 55px;
       margin-left: 100px;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'ubuntu', sans-serif;
   }
 
   #introtext{
