@@ -82,8 +82,8 @@
 
  .downlaod{
     /* background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228)); */
-    background-image: url(images/background.jpg);
-    /* width: 60%; */
+    background-image: url(images\img3.jpg);
+    width: 60%;
     height:60%;
     
     border-radius: 10px;
@@ -228,4 +228,8 @@ body{
 
 .VRestate{
     margin-left:-39px;
+}
+
+#dwnldtxt{
+    width:584px;
 }
