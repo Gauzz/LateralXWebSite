@@ -50,18 +50,18 @@
     /* width:480px; */
 }
 #pic{
-    left:10%;
+    /* left:10%; */
     position: relative;
-    top:0px;
+    /* top:0px; */
 }
 #bropicdiv{
     left:0%;
     position: relative;
     top:0px;
 }
-.container{
+/* .container{
     margin-left: 120px;
-}
+} */
 
 #pic1{
     top: 100px;
@@ -191,11 +191,16 @@ body{
 
 #brochtext{
     text-align: right;
+    margin-right: 115px;
 }
 #infobroch{
     color: rgba(8, 0, 0, 0.274);
     width:420px;
     font-size:20px;
-    left: 133px;
+    left: 18px;
     position:absolute;
+}
+
+.VRestate{
+    margin-left:-39px;
 }
