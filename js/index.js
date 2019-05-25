@@ -24,7 +24,7 @@ function myFunction() {
       $(this).prop('Counter',0).animate({
           Counter: $(this).text()
       }, {
-          duration: 1000,
+          duration: 4000,
           easing: 'swing',
           step: function (now) {
             if(i<2)
