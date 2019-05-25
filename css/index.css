@@ -105,7 +105,34 @@
     font-family: 'Ubuntu', sans-serif;
     border-radius: 10px;
  }
+.counter{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:70px;
+    color:rgb(165, 165, 165);
+    text-align: center;
 
+}
+.col-half-offset{
+    margin-left:3.3%
+}
+.stats{
+    margin-left: 160px;
+}
+
+.stat{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+    color:rgb(165, 165, 165);
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+#numb{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:25px;
+    color:rgb(165, 165, 165);
+
+}
 #pic2{
     left: 65%;
     top: -97px;
