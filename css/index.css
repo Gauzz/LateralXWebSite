@@ -4,6 +4,7 @@
     /* text-align: left; */
     /* margin-left: 5px; */
     /* position: relative; */
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #broc{
@@ -48,11 +49,12 @@
 #abc{
     font-size: 50px;
     width: 357px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #abcd{
     font-size: 50px;
-    width: 484px;
+    width: 486px;
 }
 #pic{
     /* left:10%; */
@@ -225,6 +227,7 @@ body{
 #brochtext{
     text-align: right;
     margin-right: 115px;
+    font-family: 'Ubuntu', sans-serif;
 }
 #infobroch{
     color: rgba(8, 0, 0, 0.274);
@@ -232,6 +235,7 @@ body{
     font-size: 20px;
     left: 18px;
     position: absolute;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .VRestate{
@@ -241,6 +245,7 @@ body{
 #dwnldtxt{
     width:797px;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #dwnldbuild{
@@ -251,5 +256,7 @@ body{
 }
 
 #dwnldicon{
-    width:95px;
+    top: -20px;
+    width:85px;
+    position: relative;
 }
