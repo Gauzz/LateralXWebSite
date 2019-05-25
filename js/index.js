@@ -67,9 +67,11 @@ $(window).scroll(function () {
 $(window).on('load',function(){
     
      
-    $("#imag").fadeOut(-2000);
-    $("#imag").fadeIn(2000);
-    // $(".col2").hide();
+    // $("#imag").fadeOut(-3000);
+    
+    // $("#imag").hide();
+    // // $("#imag").fadeIn(2000);
+    // $("#imag").show();
     // $(".col1").hide();
     // $(".col3").hide();
     // $(".col4").hide();
