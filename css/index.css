@@ -86,8 +86,8 @@
  } */
 
  .downlaod{
-    /* background-image: linear-gradient(rgb(124, 157, 196), rgb(185, 202, 228)); */
-    background-image: url(images/background.jpg);
+    background-image: linear-gradient(rgb(233, 233, 233), rgb(233, 233, 233));
+    /* background-image: url(images/background.jpg); */
     /* width: 60%; */
     height:60%;
     
@@ -238,7 +238,8 @@ body{
 }
 
 #dwnldtxt{
-    width:584px;
+    width:797px;
+    color: #a7a5a1;
 }
 
 
