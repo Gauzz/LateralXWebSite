@@ -106,9 +106,9 @@
 .col-half-offset{
     margin-left:3.3%
 }
-.stats{
-    margin-left: 160px;
-}
+/* .stats{
+    margin-left: 3vw;
+} */
 
 .stat{
     font-family: 'Ubuntu', sans-serif;
