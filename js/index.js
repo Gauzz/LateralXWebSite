@@ -14,11 +14,11 @@
  
   
 // }
+var i=0;
 
+window.onscroll = function() {myFunction()};
 
-// window.onscroll = function() {myFunction()};
-
-// function myFunction() {
+function myFunction() {
   if (document.body.scrollTop > 2400 || document.documentElement.scrollTop > 2400) {
     $('.count').each(function () {
       $(this).prop('Counter',0).animate({
@@ -27,12 +27,18 @@
           duration: 4000,
           easing: 'swing',
           step: function (now) {
+            if(i<2)
               $(this).text(Math.ceil(now));
+              if(now==78)
+              {
+                i++;
+              }
           }
       });
   });
   
   }
+}
 
 
 
