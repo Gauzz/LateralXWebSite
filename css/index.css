@@ -393,8 +393,9 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.VRestate{
-    margin-left:0px;
+.VR{
+   width: 100vw;
+   height: 750px;
 }
 
 #dwnldtxt{
