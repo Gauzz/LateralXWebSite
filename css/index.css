@@ -165,10 +165,11 @@
 @media (min-width:1001px)
 {
     #abc{
-        font-size: 50px;
-        width: 600px;
+        font-size: 40;
+        width: 900px;
         font-family: 'Ubuntu', sans-serif;
         text-align: center;
+        margin-left: -168px;
     }
 }
 
