@@ -16,6 +16,71 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+@media (max-width:1000px)
+{
+    .map{
+        width:30%; 
+        height:300px; 
+        align-content: center;
+    }
+}
+
+@media (min-width:1001px)
+{
+    .map{
+        width:70%; 
+        height:300px; 
+        align-content: center;
+        margin-left: 228px;
+    }
+}
+
+
+@media (max-width:1000px)
+{
+    
+}
+
+@media (min-width:1001px)
+{
+   
+}
+
+@media (max-width:1000px)
+{
+    .contacttext{
+        margin-left: 90px;
+       
+    }
+}
+
+@media (max-width:1000px)
+{
+    #if{
+        width: 357px;
+        text-align: center;
+       
+    }
+}
+
+@media (min-width:1001px)
+{
+    #if{
+        width: 583px;
+        text-align: center;
+       
+    }
+}
+
+@media (min-width:1001px)
+{
+    .contacttext{
+        margin-left: 30vw;
+       
+    }
+}
+
+
 #broc{
     top:100px;
     /* z-index: 2; */
@@ -24,27 +89,63 @@
     /* position: relative; */
 }
 
+@media (max-width:1000px)
+{
 .contacts{
+    text-align: left;
+    margin-left: 455px;
+    /* height: 100px; */
+    margin-top: 100px;
+}
+}
+@media (min-width:1001px)
+{
+    .contacts{
+
+        height: 400px;
+        margin-left: 286px;
+        margin-top: 100px;
+        width:calc(100%-50px) ;
+    }
+}
+
+/* .contacts{
 
     height: 400px;
     margin-left: 80px;
     margin-top: 100px;
     width:calc(100%-50px) ;
-}
+} */
 
 .contact{
 
     /* background-image: linear-gradient(#cbcecf, rgb(231, 231, 231)); */
     width: 100%;
+    overflow-x: hidden;
     /* border-radius: 10px; */
 }
 
-.form{
-    padding: 50px;
-    margin: 30px;
-    margin-left: 40px;
-    
+@media (max-width:1000px)
+{
+    .form{
+        padding: 50px;
+        margin: 30px;
+        margin-left: 415px;
+    }
 }
+
+
+
+@media (min-width:1001px)
+{
+    .form{
+        padding: 50px;
+        margin: 30px;
+        margin-left: 40px;
+        
+    }
+}
+
 
 
 #info{
@@ -55,11 +156,18 @@
 .icon{
     font-size: 30px;
 }
-#abc{
-    font-size: 50px;
-    width: 357px;
-    font-family: 'Ubuntu', sans-serif;
+
+@media (min-width:1001px)
+{
+    #abc{
+        font-size: 50px;
+        width: 600px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
 }
+
+
 
 #abcd{
     font-size: 50px;
@@ -81,6 +189,9 @@
     width: 263px;
     position: absolute;
 }
+html{
+    width: fit-content;
+}
 
 #bropic{
     top: 100px;
@@ -88,10 +199,10 @@
     width: 500px;
     position: absolute;
 }
- /* .aaa{
-     vertical-align: bottom;
-     display: table-cell;
- } */
+ .aaa{
+     padding-left: 0px;
+     padding-right: 0px;
+ }
 
  .downlaod{
     /* background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)); */
@@ -175,6 +286,7 @@ body{
     margin:0;
     padding:0;
     overflow-x: hidden;
+    font-size: 1em;
 }  
 
   #introheadtext{
