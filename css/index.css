@@ -243,9 +243,9 @@ html{
 }
 #pic2{
     left: 65%;
-    top: -97px;
+    top: 395px;
     width: 258px;
-    position: relative;
+    position: absolute;
 }
 video{
     left:30%;
@@ -415,3 +415,10 @@ html{
     width: fit-content;
 }
 
+
+
+.allign{
+    position: absolute;
+    left:9%;
+    
+}
