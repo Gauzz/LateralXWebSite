@@ -7,6 +7,71 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+@media (max-width:1000px)
+{
+    .map{
+        width:30%; 
+        height:300px; 
+        align-content: center;
+    }
+}
+
+@media (min-width:1001px)
+{
+    .map{
+        width:70%; 
+        height:300px; 
+        align-content: center;
+        margin-left: 228px;
+    }
+}
+
+
+@media (max-width:1000px)
+{
+    
+}
+
+@media (min-width:1001px)
+{
+   
+}
+
+@media (max-width:1000px)
+{
+    .contacttext{
+        margin-left: 90px;
+       
+    }
+}
+
+@media (max-width:1000px)
+{
+    #if{
+        width: 357px;
+        text-align: center;
+       
+    }
+}
+
+@media (min-width:1001px)
+{
+    #if{
+        width: 583px;
+        text-align: center;
+       
+    }
+}
+
+@media (min-width:1001px)
+{
+    .contacttext{
+        margin-left: 30vw;
+       
+    }
+}
+
+
 #broc{
     top:100px;
     /* z-index: 2; */
@@ -29,7 +94,7 @@
     .contacts{
 
         height: 400px;
-        margin-left: 80px;
+        margin-left: 286px;
         margin-top: 100px;
         width:calc(100%-50px) ;
     }
@@ -82,11 +147,18 @@
 .icon{
     font-size: 30px;
 }
-#abc{
-    font-size: 50px;
-    width: 357px;
-    font-family: 'Ubuntu', sans-serif;
+
+@media (min-width:1001px)
+{
+    #abc{
+        font-size: 50px;
+        width: 600px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+    }
 }
+
+
 
 #abcd{
     font-size: 50px;
@@ -208,6 +280,7 @@ body{
     margin:0;
     padding:0;
     overflow-x: hidden;
+    font-size: 1em;
 }  
 
   #introheadtext{
