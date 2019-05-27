@@ -1,3 +1,12 @@
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
 #serv{
     top:250px;
     /* z-index: 2; */
@@ -66,9 +75,6 @@
     position: relative;
     top:0px;
 }
-/* .container{
-    margin-left: 120px;
-} */
 
 #pic1{
     top: 100px;
@@ -141,7 +147,7 @@ video{
     /* height: 600px; */
     /* background-color: red; For browsers that do not support gradients */
     background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); /* Standard syntax (must be last) */
-    /* width:100px; */
+    width:100vw;
     /* height:100vh; */
   }
 
@@ -271,17 +277,18 @@ body{
 
 #dwnldtxt{
     top:30px;
-    width:797px;
-    color: white;
+    width:75%;
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-family: 'Ubuntu', sans-serif;
-    position:relative;
+    position: absolute;
 }
 
 #dwnldbuild{
     width:100%;
     position:absolute;
     left:0px;
-    top:39px;
+    /* top:39px; */
     z-index: -1;
 }
 
@@ -290,3 +297,9 @@ body{
     width:85px;
     position: relative;
 }
+
+
+html{
+    width: fit-content;
+}
+
