@@ -150,8 +150,9 @@
 
 #info{
     color: rgba(8, 0, 0, 0.274);
-    width: 324px;
+    width: 325px;
     font-size: 20px;
+    margin-left: 126px;
 }
 .icon{
     font-size: 30px;
@@ -173,6 +174,13 @@
     font-size: 50px;
     width: 486px;
 }
+
+#ab{
+    font-size: 50px;
+    width: 471px;
+    margin-left: 126px;
+}
+
 #pic{
     /* left:10%; */
     position: relative;
@@ -234,7 +242,9 @@ html{
     text-align: center;
     /* margin-top: 20px; */
 }
-
+.virt{
+    width:100vw;
+}
 #numb{
     font-family: 'Ubuntu', sans-serif;
     font-size:25px;
@@ -242,16 +252,16 @@ html{
 
 }
 #pic2{
-    left: 65%;
-    top: 395px;
+    left: 56%;
+    top: 336px;
     width: 258px;
     position: absolute;
 }
 video{
-    left:30%;
-    top:218px;
+    left: 20%;
+    top: 161px;
     position: relative;
-    width:320px;
+    width: 320px;
     z-index: 1;
 }
 #grad1{
@@ -384,7 +394,7 @@ body{
 }
 
 .VRestate{
-    margin-left:-39px;
+    margin-left:0px;
 }
 
 #dwnldtxt{
