@@ -56,15 +56,20 @@
     .form{
         padding: 50px;
         margin: 30px;
-        margin-left: 419px;
+        margin-left: 415px;
     }
 }
 
-.form{
-    padding: 50px;
-    margin: 30px;
-    margin-left: 40px;
-    
+
+
+@media (min-width:1001px)
+{
+    .form{
+        padding: 50px;
+        margin: 30px;
+        margin-left: 40px;
+        
+    }
 }
 
 
