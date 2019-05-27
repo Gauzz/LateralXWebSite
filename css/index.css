@@ -15,19 +15,49 @@
     /* position: relative; */
 }
 
+@media (max-width:1000px)
+{
 .contacts{
+    text-align: left;
+    margin-left: 455px;
+    /* height: 100px; */
+    margin-top: 100px;
+}
+}
+@media (min-width:1001px)
+{
+    .contacts{
+
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 100px;
+        width:calc(100%-50px) ;
+    }
+}
+
+/* .contacts{
 
     height: 400px;
     margin-left: 80px;
     margin-top: 100px;
     width:calc(100%-50px) ;
-}
+} */
 
 .contact{
 
     /* background-image: linear-gradient(#cbcecf, rgb(231, 231, 231)); */
     width: 100%;
+    overflow-x: hidden;
     /* border-radius: 10px; */
+}
+
+@media (max-width:1000px)
+{
+    .form{
+        padding: 50px;
+        margin: 30px;
+        margin-left: 419px;
+    }
 }
 
 .form{
@@ -36,6 +66,7 @@
     margin-left: 40px;
     
 }
+
 
 
 #info{
@@ -75,6 +106,9 @@
     width: 263px;
     position: absolute;
 }
+html{
+    width: fit-content;
+}
 
 #bropic{
     top: 100px;
@@ -82,10 +116,10 @@
     width: 500px;
     position: absolute;
 }
- /* .aaa{
-     vertical-align: bottom;
-     display: table-cell;
- } */
+ .aaa{
+     padding-left: 0px;
+     padding-right: 0px;
+ }
 
  .downlaod{
     /* background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)); */
