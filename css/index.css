@@ -162,6 +162,62 @@
     font-size: 30px;
 }
 
+#cli{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 36.458vw;
+    font-size: 45px;
+}
+
+#bsnl{
+    width: 7.227vw;
+    margin-left: 18.443vw;
+}
+
+#choit{
+    width: 7.227vw;
+    margin-left: 6.576vw;
+}
+
+#three{
+    width: 14.388vw;
+    margin-left: 8.268vw;
+}
+
+#vaish{
+    width: 16.146vw;
+    margin-left: 6.771vw;
+
+}
+
+
+#marvel{
+    width: 7.357vw;
+    margin-left: 18.490vw;
+}
+
+#jatra{
+    width: 6.510vw;
+    margin-left: 6.641vw;
+}
+
+#deccan{
+    width: 13.477vw;
+    margin-left: 8.659vw;
+
+}
+
+#list{
+    width: 6.250vw;
+    margin-left: 12.305vw;
+
+}
+
+.CL{
+    width:100vw;
+    height: 500px;
+
+}
+
 @media (min-width:1001px)
 {
     #abc{
@@ -302,6 +358,7 @@ body{
     padding:0;
     overflow-x: hidden;
     font-size: 1em;
+    width:100vw;
 }  
 
   #introheadtext{

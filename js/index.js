@@ -15,6 +15,7 @@
   
 // }
 var i=0;
+console.log(window.innerWidth);
 
 window.onscroll = function() {myFunction()};
 
