@@ -31,16 +31,16 @@
             </div>
 
             <div id="menu" style="background-color:rgba(255,255,255,0.7);">
-                <button onclick="window.location.href='/login'" class="menubut" style="">
-                <img src="https://www.lateralx.com/images/loginicon.png" width=8% style="float:left;margin-left:2px;margin-bottom:2px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Join/Login</button>
-                <button class="menubut" style="" onclick="window.location.href='/view/VR'"><img src="https://www.lateralx.com/images/vricon.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience VR</button>
-                <button class="menubut" onclick="window.location.href='/view/360'"><img src="https://www.lateralx.com/images/360icon.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;360&deg; Videos</button>
-                <button class="menubut" onclick="window.location.href='/VRCreator'"><img src="https://www.lateralx.com/images/create.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create</button>
-                <button class="menubut" onclick="window.location.href='/devtools'"><img src="https://www.lateralx.com/images/dev01.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developer tools</button>
-                <button class="menubut" onclick="window.open('http://sales.lateralx.com')"><img src="https://www.lateralx.com/images/sales.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sales</button>
-                <button class="menubut" onclick="window.location.href='https://lateralx.com/getapp'"><img src="https://www.lateralx.com/images/app.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get App</button>
-                <button class="menubut" onclick="window.location.href='/about'"><img src="https://www.lateralx.com/images/aboutusicon.png" width=8% style="float:left;margin-left:2px;margin-bottom: 2px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Know more</button>
-                </div>
+                
+                <button class="menubut" >&nbsp;&nbsp; <a href="#virtual" style="text-decoration: none; color:black">VR In Real Estate </a></button>
+                <button class="menubut" >&nbsp;&nbsp; <a href="#bropicdiv" style="text-decoration: none; color:black">Interactive Brochure</a></button>
+                <button class="menubut" >&nbsp;&nbsp;<a href="#serv" style="text-decoration: none; color:black">Mobile App</a></button>
+                <button class="menubut" >&nbsp;&nbsp; <a href="#cou" style="text-decoration: none; color:black">Statistics</a></button>
+                <button class="menubut" >&nbsp;&nbsp;<a href="#download" style="text-decoration: none; color:black">Download the Mobile app</a></button>
+                <button class="menubut" >&nbsp;&nbsp;<a href="#clien" style="text-decoration: none; color:black">Clients and Partners</a></button>
+                <button class="menubut" >&nbsp;&nbsp;<a href="#contac" style="text-decoration: none; color:black">Contact us</a></button>
+                <button class="menubut" onclick="window.location.href='https://lateralx.com'">&nbsp;&nbsp;VR Platform</button>    
+            </div>
             <br><br>
             <div class="row">
                 <div class="col-lg-6" >
@@ -61,7 +61,7 @@
 
         
         
-                <div class="row VR">
+                <div class="row VR" id="virtual">
                     <div class="col-lg-6 col-md-6 col-sm-6" id="service">
                     <p><h1 id="ab">Virtual Reality In Real Estate</h1><p id="info">Bringing virtual reality to showcase the look and feel of all the spaces. To get an enhanced experience.</p></p>
                     </div>
@@ -131,7 +131,7 @@
             </div>
         </div>
     
-        <div class="row CR">
+        <div class="row CR" id="cou">
 
             <div class="col-sm-2 counter" >
             <span class="count"><b>95</b></span>%
@@ -166,7 +166,7 @@
         </div>
 
   
-        <div class="row DW">
+        <div class="row DW" id="download">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <image id="dwnldbuild"src="images\downloadimagefinal2.jpg"></image>
             <h1 id="dwnldtxt">Download the Mobile App now! And experience the power of VR/AR for yourself.</h1><br><br>
@@ -178,7 +178,7 @@
 
     <br><br><br>
 
-        <div class="row CL">
+        <div class="row CL" id="clien">
             <h1 id="cli">Our Clients & Partners</h1>
             
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -198,7 +198,7 @@
 
         <br><br><br>><br><br>
     
-            <div class="row contacttext">
+            <div class="row contacttext" id="contac">
                 <div class="col-lg-12 col-xs-12">
                 <h1 id="abc">  You're just one call away from getting the best marketing product for your next big project!</h1><br>
                 <p id="if"></p>
@@ -251,8 +251,10 @@
     </center> 
     <br>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        
+    <script src="js/jquery.singlePageNav.min.js"></script>
     <script src="js/index.js"></script>
+    
+
   
 </body>
 </html>

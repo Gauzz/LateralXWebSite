@@ -39,7 +39,7 @@ if($('#nav-toggle').hasClass('active')){
   if(windowsize<=425){
    $('.searc2').fadeOut("fast");
   }
-   $('body').css('overflow','hidden');
+  
    $('.next').fadeOut("fast");
    }
 else{
@@ -107,6 +107,32 @@ $(window).scroll(function () {
 });
 
 
+$('#menu').singlePageNav({
+  offset: $('.single-page-nav').outerHeight(),
+  threshold: 120,
+  speed: 800,
+  currentClass: 'current',
+  easing: 'swing',
+  filter: ':not(.external)',
+  //up: <a href="https://www.jqueryscript.net/time-clock/">date</a>,
+  Hash: true,
+  beforeStart: function() {
+  console.log('begin scrolling');
+  },
+  onComplete: function() {
+  console.log('done scrolling');
+  }
+  });
+
+
+  $(".menubut").click(function()
+  {
+    $("#menu").fadeOut();
+  });
+
+  
+
+
 
 
 
@@ -146,3 +172,6 @@ $(window).on('load',function(){
       function linkedin(){
         window.open("https://www.linkedin.com/company/lateralx/about/");
       }
+
+
+      
