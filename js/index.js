@@ -33,6 +33,7 @@ else{
   }
 if($('#nav-toggle').hasClass('active')){
    $('#menu').fadeIn("fast");
+   
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
   var windowsize = $(window).width();
@@ -43,7 +44,7 @@ if($('#nav-toggle').hasClass('active')){
    $('.next').fadeOut("fast");
    }
 else{
-  $('#menu').fadeOut("fast");
+  // $('#menu').fadeOut("fast");
   $('.cover').fadeIn("fast");
   $('.brands').fadeIn("fast");
   var windowsize = $(window).width();
