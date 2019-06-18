@@ -6,7 +6,7 @@
     margin-left: 0px;
 }
 
-.curpage2 {
+.curpage2 :hover{
     display: block;
     width: 30px;
     position: absolute;
