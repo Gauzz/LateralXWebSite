@@ -6,7 +6,7 @@
     margin-left: 0px;
 }
 
-.curpage2 :hover{
+.curpage2 {
     display: block;
     width: 30px;
     position: absolute;
@@ -15,7 +15,8 @@
     z-index: 5;
 }
 
-#menu{    display: none;
+#menu :hover{    
+    display: none;
     width: 35%;
     height: 100%;
     z-index: 1;
