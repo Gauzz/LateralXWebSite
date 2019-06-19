@@ -18,7 +18,7 @@
 
 document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
   this.classList.toggle( "active" );
-  if(document.querySelector('#nav-toggle').classList.contains("active")=='true')
+  if(document.querySelector('#nav-toggle').classList.contains("active"))
 {
   document.querySelector('#nav-toggle').style.color="black";
 }
@@ -27,12 +27,13 @@ else{
   document.querySelector('#nav-toggle').style.color="white";
 }
 
+
   var windowsize = $(window).width();
   if(windowsize>=1000){
   $('.menubut').attr('width','9%');
   }
 if($('#nav-toggle').hasClass('active')){
-   $('.menu').eq(0).fadeIn("fast");
+   $('.menu').eq(0).fadeOut("fast");
    
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
