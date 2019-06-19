@@ -25,14 +25,14 @@ document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
 
 else{
   document.querySelector('#nav-toggle').style.color="white";
-}
+})
  
 
-  var windowsize = $(window).width;
+  var windowsize = $(window).widt;
   if(windowsize>=1000){
   $('.menubut').attr('width','9%');
   }
-if($('#nav-toggle').hasClass('active')){
+if($('#nav-toggle').hasClass('active'== false)){
    $('.menu').eq(0).fadeIn("fast");
    
    $('.cover').fadeOut("fast");
