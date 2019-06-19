@@ -32,7 +32,7 @@ else{
   if(windowsize>=1000){
   $('.menubut').attr('width','9%');
   }
-if($('#nav-toggle').hasClass('active')){
+if($('#nav-toggle').hasClass('active'== false)){
    $('.menu').eq(0).fadeOut("fast");
    
    $('.cover').fadeOut("fast");
