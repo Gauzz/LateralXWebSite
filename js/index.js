@@ -33,7 +33,7 @@ else{
   $('.menubut').attr('width','9%');
   }
 if($('#nav-toggle').hasClass('active'== false)){
-   $('.menu').eq(0).fadeOut("fast");
+   $('.menu').eq(0).fadeIn("fast");
    
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
