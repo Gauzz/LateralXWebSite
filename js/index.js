@@ -18,7 +18,7 @@
 
 document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
   this.classList.toggle( "active" );
-  if(document.querySelector('#nav-toggle').classList.contains("active"))
+  if(document.querySelector('#nav-toggle').classList.contains("active"== true))
 {
   document.querySelector('#nav-toggle').style.color="black";
 }
