@@ -28,7 +28,7 @@ else{
 }
   $("#nav-toggle").fadeOut(fast);
 
-  var windowsize = $(window).width();
+  var windowsize = $(window).widt;
   if(windowsize>=1000){
   $('.menubut').attr('width','9%');
   }
