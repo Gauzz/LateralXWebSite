@@ -26,14 +26,14 @@ document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
 else{
   document.querySelector('#nav-toggle').style.color="white";
 }
-
+  $("#nav-toggle").fadeIn(fast);
 
   var windowsize = $(window).width();
   if(windowsize>=1000){
   $('.menubut').attr('width','9%');
   }
 if($('#nav-toggle').hasClass('active')){
-   $('.menu').eq(0).fadeOut("fast");
+   $('.menu').eq(0).fadeIn("fast");
    
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
