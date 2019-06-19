@@ -128,7 +128,7 @@ $('.menu').eq(0).singlePageNav({
 
   $(".menubut").click(function()
   {
-    $(".menu").eq(0).fadeOut();
+    $('.menu').eq(0).fadeOut();
   });
 
   

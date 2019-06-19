@@ -15,7 +15,7 @@
     z-index: 5;
 }
 
-#menu :hover{    
+.menu {    
     display: none;
     width: 35%;
     height: 100%;
