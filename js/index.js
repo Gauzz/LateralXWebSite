@@ -26,7 +26,7 @@ document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
 else{
   document.querySelector('#nav-toggle').style.color="white";
 }
-  $("#nav-toggle").fadeIn(fast);
+  $("#nav-toggle").fadeOut(fast);
 
   var windowsize = $(window).width();
   if(windowsize>=1000){
