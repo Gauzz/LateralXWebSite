@@ -25,7 +25,7 @@ document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
 
 else{
   document.querySelector('#nav-toggle').style.color="white";
-})
+}
  
 
   var windowsize = $(window).widt;
