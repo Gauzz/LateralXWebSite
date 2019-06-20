@@ -32,13 +32,14 @@ else{
   if(windowsize>=1000){
   $('.menubut').attr('width','9%');
   }
+  
 if($('#nav-toggle').hasClass('active')){
    $('.menu').eq(0).fadeIn("fast");
    
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
   var windowsize = $(window).width();
-else{ $('.menu').eq(0).fadeOut("fast");}  
+  
   if(windowsize<=425){
    $('.searc2').fadeOut("fast");
   }
@@ -46,7 +47,7 @@ else{ $('.menu').eq(0).fadeOut("fast");}
    $('.next').fadeOut("fast");
    }
 else{
-  // $('.menu').eq(0).fadeOut("fast");
+  $('.menu').eq(0).fadeOut("fast");
   $('.cover').fadeIn("fast");
   $('.brands').fadeIn("fast");
   var windowsize = $(window).width();
