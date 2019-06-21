@@ -47,7 +47,7 @@ if($('#nav-toggle').hasClass('active')){
    $('.next').fadeOut("fast");
    }
 else{
-  $('body').css('overflow','auto');
+  $('body').css('hidden','auto');
   $('.menu').eq(0).fadeOut("fast");
   $('.cover').fadeIn("fast");
   $('.brands').fadeIn("fast");
