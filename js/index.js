@@ -34,8 +34,8 @@ else{
   }
   
 if($('#nav-toggle').hasClass('active')){
-   $('.menu').eq(0).fadeIn("fast");
-   
+   $('.menu').eq(0).fadeIn("fast");   
+   $('body').css('hidden','auto');
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
   var windowsize = $(window).width();
@@ -47,7 +47,7 @@ if($('#nav-toggle').hasClass('active')){
    $('.next').fadeOut("fast");
    }
 else{
-  $('body').css('hidden','auto');
+ 
   $('.menu').eq(0).fadeOut("fast");
   $('.cover').fadeIn("fast");
   $('.brands').fadeIn("fast");
