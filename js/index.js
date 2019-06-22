@@ -17,7 +17,7 @@
 
 
 document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-  this.classList.toggle( "active" );
+  this.classList.toggle(  );
   if(document.querySelector('#nav-toggle').classList.contains("active")== true)
 {
   document.querySelector('#nav-toggle').style.color="black";
@@ -35,7 +35,7 @@ else{
   
 if($('#nav-toggle').hasClass('active')){
    $('.menu').eq(0).fadeIn("fast");   
-   $('body').css('hidden','auto');
+   
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
   var windowsize = $(window).width();
@@ -63,6 +63,7 @@ else{
 
 }        
 );
+
 
 var i=0;
 console.log(window.innerWidth);
