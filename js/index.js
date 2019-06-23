@@ -35,9 +35,7 @@ else{
   
 if($('#nav-toggle').hasClass('active')){
    $('.menu').eq(0).fadeIn("fast");   
-   $("button,menubut").click(function(){
-       $(".curpage2").classList.toggle( "active" );
-   });
+   
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
   var windowsize = $(window).width();
@@ -136,6 +134,7 @@ $('.menu').eq(0).singlePageNav({
   $(".menubut").click(function()
   {
     $('.menu').eq(0).fadeOut();
+    document.querySelector('#nav-toggle').classList.remove("active");
   });
 
   
