@@ -17,7 +17,7 @@
 
 
 document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-  this.classList.toggle(  );
+  this.classList.toggle( "active" );
   if(document.querySelector('#nav-toggle').classList.contains("active")== true)
 {
   document.querySelector('#nav-toggle').style.color="black";
@@ -35,7 +35,9 @@ else{
   
 if($('#nav-toggle').hasClass('active')){
    $('.menu').eq(0).fadeIn("fast");   
-   
+   $("button,menubut").click(function(){
+       $(".curpage2").classList.toggle( "active" );
+   });
    $('.cover').fadeOut("fast");
    $('.create').fadeOut("fast");
   var windowsize = $(window).width();
